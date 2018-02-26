@@ -1,5 +1,5 @@
 before_script:
-    - pip install mkdocs
+    - pip install --user mkdocs
 
 script:
     - mkdocs build
