@@ -2,3 +2,4 @@ site_name: kitt_docs
 theme: readthedocs
 pages:
     - Home: index.md
+    - Donkey Simulator: donkey_sim.md
