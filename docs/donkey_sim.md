@@ -22,19 +22,18 @@ The guide for the simulator is [here](http://docs.donkeycar.com/guide/simulator/
 - ### Choose configuration.  
   You will be presented with a configuration page to modify controls.  
   Accept the default.  
-  <img src="assets/donkeysim_config.png" alt="donkeysim configuration page" width="300">  
   ![donkeysim configuration page](assets/donkeysim_config.png)  
 - ### Choose environment.  
   You will be asked which environment to simulate.  
   Select **Warehouse**  
-  <img alt="donkeysim select simulation environment" src="assets/donkeysim_select_env.png" width="300">  
+  ![donkeysim select simulation environment](assets/donkeysim_select_env.png)  
 - ### Drive!  
   You will be presented with the car on the track.  
   Choose **Joystick/Keyboard No Rec** to drive the robot without logging.  
   Use the arrow keys to drive the robot.  
   Left/Right keys will steer the robot. Releasing will restore the steering to center.  
   Up/Down keys will increase/decrease throttle. Releasing throttle **WILL NOT** stop the robot.  
-  <img alt="donkeysim warehouse starting place" src="assets/donkeysim_warehouse_start_norec.png" width="300">
+  ![donkeysim warehouse starting place](assets/donkeysim_warehouse_start_norec.png)
 
 ## Install Donkeycar Library
 - Install dependencies  
@@ -55,12 +54,12 @@ The guide for the simulator is [here](http://docs.donkeycar.com/guide/simulator/
 Once in an environment, choose **Joystick/Keyboard Rec**.  
 This will log the image and command data to `DonkeySimLinux/log` if this directory exists.  
 This folder will contain `jpg` images of what the robot saw and `json` files mapping these images to drive commands.  
-<img alt="donkeysim warehouse starting place" src="assets/donkeysim_warehouse_start_rec.png" width="300">  
+![donkeysim warehouse starting place](assets/donkeysim_warehouse_start_rec.png)
 
 Notice that while logging, the **Log Count** number will start increasing.  
-Operate the robot until log count reaches 10,000.
+Operate the robot until log count reaches 10,000.  
 *Note: 10,000 is the **MINIMUM** number of images needed. To have an effective training, much more is needed.*  
-<img alt="donkeysim warehouse logging" src="assets/donkeysim_log.png" width="300">
+![donkeysim warehouse logging](assets/donkeysim_log.png)
 
 ## Train
 This section assumes you have installed the donkeycar library and simulator, and collected data.
@@ -90,9 +89,11 @@ This section assumes you have installed the donkeycar library and simulator, and
   ```
   The amount of time to train will vary by computer and training data quality.
 
-- When done, you will see
+- When done, you will see something like
   ```
+  Epoch 00021: early stopping
   ```
+  You should now be able to use your model.
 
 ## Drive with NN
 - Ensure the environment simulator is running.  
@@ -110,6 +111,6 @@ This section assumes you have installed the donkeycar library and simulator, and
   ```
 - Give control to the NN.  
   In the environment simulator, choose **NN Steering w Websockets**  
-  <img alt="donkeysim warehouse nn" src="assets/donkeysim_warehouse_start_nn.png" width="300">  
+  ![donkeysim warehouse nn](assets/donkeysim_warehouse_start_nn.png)
   The result should be something like [this](https://youtu.be/YP5ob7jX9g0).  
   The robot drives horribly, but it is clear that it is responding to its environment.
