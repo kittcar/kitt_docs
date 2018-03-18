@@ -58,7 +58,9 @@ This folder will contain `jpg` images of what the robot saw and `json` files map
 
 Notice that while logging, the **Log Count** number will start increasing.  
 Operate the robot until log count reaches 10,000.  
+
 > *Note: 10,000 is the **MINIMUM** number of images needed. To have an effective training, much more is needed.*  
+
 ![donkeysim warehouse logging](assets/donkeysim_log.png)
 
 ## Train
