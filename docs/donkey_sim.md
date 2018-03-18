@@ -9,9 +9,9 @@ The guide for the simulator is [here](http://docs.donkeycar.com/guide/simulator/
   This version was tested in March 2018. [A newer version may be available](http://docs.donkeycar.com/guide/simulator/).
 - Extract the download. This will create a new folder with executable and other assets.
   ```
-  ~$ tar -xvf DonkeySimLinux.tar.gz  
-  ~$ ls  
-  DonkeySimLinux  DonkeySimLinux.tar.gz  
+      ~$ tar -xvf DonkeySimLinux.tar.gz  
+      ~$ ls  
+      DonkeySimLinux  DonkeySimLinux.tar.gz  
   ```
 ## Simulate
 - ### Run the donkey sim executable.
