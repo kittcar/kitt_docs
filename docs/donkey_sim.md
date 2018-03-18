@@ -23,6 +23,7 @@ The guide for the simulator is [here](http://docs.donkeycar.com/guide/simulator/
   You will be presented with a configuration page to modify controls.  
   Accept the default.  
   <img src="assets/donkeysim_config.png" alt="donkeysim configuration page" width="300">  
+  ![donkeysim configuration page](assets/donkeysim_config.png)  
 - ### Choose environment.  
   You will be asked which environment to simulate.  
   Select **Warehouse**  
