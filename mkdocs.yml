@@ -3,3 +3,4 @@ theme: readthedocs
 pages:
     - Home: index.md
     - Donkey Simulator: donkey_sim.md
+    - Style: style.md
