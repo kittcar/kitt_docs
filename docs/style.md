@@ -1,12 +1,12 @@
 # Major System/Library Versions
-Ubuntu 16.04
-ROS Kinetic
-Python 3.5
-C++ 11
-Javascript ES6
-OpenCV 3.4
-Tensorflow 1.8
-PCL ???
+- Ubuntu 16.04
+- ROS Kinetic
+- Python 3.5
+- C++ 11
+- Javascript ES6
+- OpenCV 3.4
+- Tensorflow 1.8
+- PCL ???
 
 # Style
 Our own style guide will need to be developed and enforced using [clang-format](https://clang.llvm.org/docs/ClangFormat.html) and other tools.
