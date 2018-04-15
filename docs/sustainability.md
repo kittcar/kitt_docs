@@ -15,8 +15,8 @@ them in the mind of project contributors.
 - Logging and introspection
 - Thin HAL
 
-Note: relate thin hal to easily detectable hardware faults.
-Note: platform modularity will be demphisized but multiple platforms will be emphasized
-importance of agile practices
-physical continuous integration, HIL testing
+Note: relate thin hal to easily detectable hardware faults.  
+Note: platform modularity will be demphisized but multiple platforms will be emphasized  
+importance of agile practices  
+physical continuous integration, HIL testing  
 
