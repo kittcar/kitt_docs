@@ -2,5 +2,5 @@
 
 Lane keeping project on small scale vehicle.
 
-## YouTube
-[Channel](https://www.youtube.com/channel/UC13CJX3DgJVtIGpTjfX6c3A)
+- [Github](https://github.com/kittcar)
+- [YouTube](https://www.youtube.com/channel/UC13CJX3DgJVtIGpTjfX6c3A)
