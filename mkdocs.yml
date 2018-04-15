@@ -3,5 +3,7 @@ theme: readthedocs
 pages:
     - Home: index.md
     - Donkey Simulator: donkey_sim.md
-    - Wikis: wikis.md
+    - Sustainability: sustainability.md
+    - Improvements: improvements.md
     - Style: style.md
+    - Wikis: wikis.md
