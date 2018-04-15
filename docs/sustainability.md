@@ -6,6 +6,7 @@ Robotics projects are particularly notorious for being difficult to sustain and 
 
 While many of these are obvious to experienced software engineers, explicitly listing these practices seeks to solidify
 them in the mind of project contributors.
+
 - Reusable codebase
 - Unit, integration, acceptance testing
 - Simulator testing
