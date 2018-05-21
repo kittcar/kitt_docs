@@ -6,13 +6,12 @@ script:
 
 deploy:
   provider: s3
-  access_key_id: AKIAIVN2KOJ2CVJA7SPA
-  secret_access_key:
-    secure: b5iXLbT8Lbwks2CEoQeduTcVAtMKB2G4UOVzCnHn6xKA0tSkJg8ePSbwqx+J4kM3ChCM+1Z++qRsl5+jYI370e78GTogivA17E4eThvUcgaDqg/QgVTOzRG0E35I0OQnrcgE4zF0CFmTIjl+rvpCQz6w4jZ6+IUjK7ZmjEVzQ2DxCwSpCw5xgVHfkvWbYbr63JAdfFqkcYDx+YXIjhHJbJpREcgmYkLIFyNaTwkdSUP8HwD3cOniXgasV+H/2DJlzEvueRO1VntjjP/ourdrf5YA3OZBQYqLWCNTnTDviLwyOh3VyL20GlBHCy3LOco73V2suJd1EQYnQFUS7a9qGgM3FgN8AA4OGXFWcIzqmEywoHRb1MBbatJHxuzQNSwnZuGymWKTUxbl8HNtbyu+wu/7D/bxKz84vzcHtpqu3Ezf0VPGZ5ZCV05ZnmAH8Yn90yop2Gw/g+IRxMEnkXJUwRgrgS12WXKkIgv5HofTD4Z78EiZEtLToSlhkT/eNAzPmyElZ6E3mFpx1TUc2T+uuVk3oPmcyDiMkH76rm6Ggs84GrQoc7HB/o+GLNc1GtaBNs76KCHUVhrz1fOOPo7xGaz5SMJ6pA9eHZavo5lE9zjFYkYK01v12wKCz08iXzET/bLTSAdYSqkBV7hEeQimdEFntA7ssmYRYlFkTJz3Fwk=
+  access_key_id: $AWS_ACCESS_KEY_ID
+  secret_access_key: $AWS_SECRET_ACCESS_KEY
   bucket: docs.kittcar.com
   acl: public_read
   on:
     repo: kittcar/kitt_docs
   skip_cleanup: true
-  region: us-west-1
+  region: $AWS_DEFAULT_REGION
   local_dir: site
