@@ -14,6 +14,8 @@ them in the mind of project contributors.
 - Docker containers
 - Logging and introspection
 - Thin HAL
+- Event-based rather than time-based, especially for increasing the feasibility of testing
+- Parameterized time where possible
 
 Note: relate thin hal to easily detectable hardware faults.  
 Note: platform modularity will be demphisized but multiple platforms will be emphasized  
